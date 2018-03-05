@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomPopUpApp</string>
+    <string name="professonal_secure_medical"><![CDATA[Professonal & Secure Medical]]></string>
+    <string name="cannabis_delivery_service">Cannabis Delivery Service</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza"
+    android:orientation="vertical"
+    tools:context="com.example.t_ex_140542.custompopupapp.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_weight="280dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/professonal_secure_medical"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cannabis_delivery_service"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <EditText
+        android:hint="E-mail"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@color/white"/>
+    <EditText
+        android:hint="Passoword"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot passoword? >>"
+       android:textColor="@color/bluelight"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_marginLeft="95dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member?"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bluelight"
+        android:textColor="@color/white"
+        android:text="REGISTER NOW"/>
+
+
+</LinearLayout>
